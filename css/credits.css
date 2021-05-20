@@ -1,0 +1,84 @@
+.credits-list {
+    width: 70em;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 10px;
+}
+.composition {
+    display: flex;
+} 
+.credits-list__bank {
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid var(--greyPageColor)
+}
+@media(max-width: 1180px) {
+    .credits-list__bank {
+        font-size: 11px;
+    }
+}
+@media(max-width: 991px) {
+    .credits-list__bank {
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 45em;
+    }
+}
+.credits-list__bank:hover {
+    background-color: rgb(247, 247, 247);
+}
+.credits-list__element {
+    margin: 0 2em;
+    text-align: center;
+}
+.visit-page {
+    padding: 1em 2em;
+    margin: 0 2em;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--generalPageColor);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.visit-page:hover {
+    background-color: var(--generalPageColorDarker);
+}
+@media(max-width: 1180px) {
+    .visit-page {
+        padding: 1em 2em;
+        font-size: 13px;
+    }
+}
+@media(max-width: 991px) {
+    .visit-page {
+        margin-top: 20px;
+        padding: 1em 2em;
+        font-size: 14px;
+    }
+}
+.available-icon {
+    width: 13px;
+}
+.avilable-text {
+    color: rgb(0, 160, 0);
+}
+.not_available-icon {
+    width: 14px;
+}
+.not_avilable-text {
+    color: rgb(255, 0, 0);
+}
+@media(max-width: 1180px) {
+    .available-icon {
+        width: 10px;
+    }
+    .not_available-icon {
+        width: 11px;
+    }
+}

@@ -1,0 +1,10 @@
+.general-page__header {
+    border: 1px solid var(--greyPageColor);
+    background-color: rgb(238, 238, 238);
+    margin-top: 3px;
+}
+.general-page__header-title {
+    color: var(--generalPageColor);
+    text-align: center;
+    font-weight: 400;
+}
