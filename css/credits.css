@@ -8,13 +8,13 @@
     display: flex;
 } 
 .credits-list__bank {
-    margin: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     padding: 10px;
-    border: 1px solid var(--greyPageColor)
+    border: 1px solid var(--greyPageColor);
+    margin: 1em auto;
 }
 @media(max-width: 1180px) {
     .credits-list__bank {
@@ -24,7 +24,7 @@
 @media(max-width: 991px) {
     .credits-list__bank {
         max-width: 100%;
-        margin: 0 auto;
+        margin: 1em auto;
         flex-direction: column;
         width: 45em;
     }
@@ -32,8 +32,13 @@
 .credits-list__bank:hover {
     background-color: rgb(247, 247, 247);
 }
+@media(max-width: 991px) {
+    .credits-list__bank:hover {
+        background-color: transparent;
+    }
+}
 .credits-list__element {
-    margin: 0 2em;
+    margin: 0 3em;
     text-align: center;
 }
 .visit-page {
